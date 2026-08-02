@@ -1,5 +1,3 @@
-/**
- * Embed utilities
- */
-
-module.exports = {};
+module.exports = {
+    ...require("./EmbedBuilder")
+};
