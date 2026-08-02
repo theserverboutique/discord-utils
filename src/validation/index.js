@@ -1,0 +1,5 @@
+/**
+ * Validation utilities
+ */
+
+module.exports = {};
