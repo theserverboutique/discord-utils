@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/discord-utils-banner.png" alt="Discord Utils Banner" width="100%">
+</p>
+
 # 🌸 Discord Utils
 
 A collection of reusable utilities for **Discord.js v14** built and maintained by **The Server Boutique**.
