@@ -1,24 +1,15 @@
 /**
- * The Server Boutique - Discord Utils
- * Main export file
+ * The Server Boutique — Discord Utils
+ *
+ * Main export file for all reusable utilities.
  */
 
 module.exports = {
-    // Embeds
     ...require("./embeds"),
-
-    // Permissions
+    ...require("./buttons"),
     ...require("./permissions"),
-
-    // Roles
     ...require("./roles"),
-
-    // Formatting
     ...require("./formatting"),
-
-    // Validation
     ...require("./validation"),
-
-    // Logging
-    ...require("./logging"),
+    ...require("./logging")
 };
