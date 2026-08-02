@@ -1,5 +1,0 @@
-/**
- * Validation utilities
- */
-
-module.exports = {};
