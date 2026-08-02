@@ -1,6 +1,30 @@
 <p align="center">
   <img src="assets/discord-utils-banner.png" alt="Discord Utils Banner" width="100%">
 </p>
+<p align="center">
+  <img src="assets/discord-utils-banner.png" alt="Discord Utils Banner" width="100%">
+</p>
+
+<div align="center">
+
+# 📦 Discord Utils
+
+### Reusable Discord.js Utilities
+
+![npm](https://img.shields.io/npm/v/@theserverboutique/discord-utils?style=for-the-badge)
+![License](https://img.shields.io/github/license/theserverboutique/discord-utils?style=for-the-badge)
+![Node.js](https://img.shields.io/badge/Node.js-22+-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Discord.js](https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES2023-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+Reusable utilities for embeds, components, permissions, validation and logging.
+
+</div>
+
+![GitHub release](https://img.shields.io/github/v/release/theserverboutique/discord-utils?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/theserverboutique/discord-utils?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/theserverboutique/discord-utils?style=for-the-badge)
+![Downloads](https://img.shields.io/npm/dm/@theserverboutique/discord-utils?style=for-the-badge)
 
 # 🌸 Discord Utils
 
