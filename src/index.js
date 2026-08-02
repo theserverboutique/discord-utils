@@ -7,6 +7,7 @@
 module.exports = {
     ...require("./embeds"),
     ...require("./buttons"),
+    ...require("./selectMenus"),
     ...require("./permissions"),
     ...require("./roles"),
     ...require("./formatting"),
