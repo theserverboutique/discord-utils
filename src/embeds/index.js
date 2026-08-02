@@ -1,0 +1,5 @@
+/**
+ * Embed utilities
+ */
+
+module.exports = {};
