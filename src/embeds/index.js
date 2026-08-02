@@ -1,3 +1,10 @@
+const Colours = require("./Colours");
+
 module.exports = {
-    ...require("./EmbedBuilder")
+    Colours,
+    ...require("./EmbedBuilder"),
+    ...require("./SuccessEmbed"),
+    ...require("./ErrorEmbed"),
+    ...require("./WarningEmbed"),
+    ...require("./InfoEmbed")
 };
