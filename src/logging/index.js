@@ -1,0 +1,5 @@
+/**
+ * Logging utilities
+ */
+
+module.exports = {};
