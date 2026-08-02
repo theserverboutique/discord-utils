@@ -1,5 +1,0 @@
-/**
- * Role utilities
- */
-
-module.exports = {};
