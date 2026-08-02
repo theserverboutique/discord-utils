@@ -1,0 +1,5 @@
+/**
+ * Permission utilities
+ */
+
+module.exports = {};
