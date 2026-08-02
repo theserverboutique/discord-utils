@@ -1,9 +1,6 @@
 <p align="center">
   <img src="assets/discord-utils-banner.png" alt="Discord Utils Banner" width="100%">
 </p>
-<p align="center">
-  <img src="assets/discord-utils-banner.png" alt="Discord Utils Banner" width="100%">
-</p>
 
 <div align="center">
 
@@ -11,49 +8,54 @@
 
 ### Reusable Discord.js Utilities
 
-![npm](https://img.shields.io/npm/v/@theserverboutique/discord-utils?style=for-the-badge)
+![GitHub Release](https://img.shields.io/github/v/release/theserverboutique/discord-utils?style=for-the-badge)
 ![License](https://img.shields.io/github/license/theserverboutique/discord-utils?style=for-the-badge)
-![Node.js](https://img.shields.io/badge/Node.js-22+-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Discord.js](https://img.shields.io/badge/Discord.js-v14-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-22+-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES2023-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Reusable utilities for embeds, components, permissions, validation and logging.
+Reusable utilities for modern **Discord.js v14** development.
+
+Built to help developers create cleaner, more maintainable and production-ready Discord bots.
 
 </div>
 
-![GitHub release](https://img.shields.io/github/v/release/theserverboutique/discord-utils?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/theserverboutique/discord-utils?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/theserverboutique/discord-utils?style=for-the-badge)
-![Downloads](https://img.shields.io/npm/dm/@theserverboutique/discord-utils?style=for-the-badge)
+---
 
-# 🌸 Discord Utils
+# 🌸 Overview
 
-A collection of reusable utilities for **Discord.js v14** built and maintained by **The Server Boutique**.
+**Discord Utils** is an open-source utility library created and maintained by **The Server Boutique**.
 
-Designed to help developers build cleaner, more maintainable Discord bots with reusable components and helper functions.
+Rather than rewriting the same helper functions across every Discord bot, this library provides reusable utilities for embeds, components, permissions, validation, formatting and more.
+
+Whether you're creating a small community bot or a large production application, Discord Utils is designed to reduce boilerplate code and encourage consistent development practices.
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-- 📦 Reusable embed builders
+- 📦 Beautiful embed builders
 - 🔘 Button utilities
 - 📋 Select menu helpers
 - 📝 Modal utilities
 - 🔐 Permission helpers
-- 👥 Role utilities
-- 🎨 Formatting helpers
-- ✅ Validation utilities
-- 📖 Well documented
-- 🧪 Built with testing in mind
+- 👥 Role helpers
+- 🎨 Formatting utilities
+- ✅ Validation helpers
+- 📜 Structured logging
+- 🧪 Designed with testing in mind
+- 📚 Clear documentation
+- ♻️ Reusable architecture
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 discord-utils/
 │
+├── docs/
+├── examples/
 ├── src/
 │   ├── buttons/
 │   ├── embeds/
@@ -62,29 +64,35 @@ discord-utils/
 │   ├── modals/
 │   ├── permissions/
 │   ├── roles/
-│   ├── select-menus/
+│   ├── selectMenus/
 │   ├── validation/
 │   └── index.js
 │
 ├── tests/
-├── package.json
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
 ├── README.md
-└── LICENSE
+├── SECURITY.md
+└── package.json
 ```
 
 ---
 
-## 📦 Installation
+# 📦 Installation
 
 ```bash
-npm install
+npm install @theserverboutique/discord-utils
 ```
 
-*(Publishing to npm is planned for a future release.)*
+> **Note**
+>
+> The package is currently under active development and will be published to npm in a future release.
 
 ---
 
-## 🚀 Basic Usage
+# 🚀 Quick Example
 
 ```javascript
 const {
@@ -105,73 +113,113 @@ const errorEmbed = createErrorEmbed(
 
 ---
 
-## 📚 Available Modules
+# 📚 Available Modules
 
 | Module | Description |
 |---------|-------------|
-| Embeds | Create consistent Discord embeds |
-| Buttons | Build reusable Discord buttons |
-| Select Menus | Generate dropdown menus |
-| Modals | Build Discord modal forms |
-| Permissions | Permission checking helpers |
-| Roles | Role management helpers |
-| Formatting | Common formatting functions |
-| Validation | Input validation helpers |
-| Logging | Structured logging utilities |
+| 📦 Embeds | Create beautiful, reusable Discord embeds |
+| 🔘 Buttons | Build reusable button components |
+| 📋 Select Menus | Generate dropdown menus |
+| 📝 Modals | Create Discord modal forms |
+| 🔐 Permissions | Permission checking utilities |
+| 👥 Roles | Role management helpers |
+| 🎨 Formatting | Common formatting functions |
+| ✅ Validation | Input validation helpers |
+| 📜 Logging | Structured logging utilities |
 
 ---
 
-## 🎯 Project Goals
+# 🎯 Design Goals
 
-- Build production-ready Discord.js utilities.
-- Keep APIs simple and consistent.
+Discord Utils is built around a few core principles.
+
+- Keep APIs simple and intuitive.
 - Encourage clean, maintainable code.
-- Share reusable components with the community.
+- Reduce repetitive boilerplate.
+- Provide production-ready utilities.
+- Follow modern Discord.js practices.
+- Remain lightweight and modular.
+- Support long-term scalability.
 
 ---
 
-## 🗺️ Roadmap
+# 🗺️ Roadmap
 
-### Version 1.0
-- ✅ Embed utilities
-- ✅ Button utilities
-- ✅ Select menu utilities
-- ✅ Modal utilities
-- ✅ Permission helpers
-- ✅ Role helpers
-- ✅ Formatting helpers
-- ✅ Validation helpers
-- ✅ Logging helpers
+## ✅ Version 1.0
 
-### Planned
+- Embed utilities
+- Button utilities
+- Select menu utilities
+- Modal utilities
+- Permission helpers
+- Role helpers
+- Formatting helpers
+- Validation helpers
+- Logging utilities
+
+## 🚧 Planned
 
 - Component pagination
 - Embed pagination
-- Better error handling
+- Advanced collectors
+- Improved error handling
 - TypeScript support
-- Full documentation website
+- Expanded documentation
+- Additional helper utilities
 - npm package release
 
 ---
 
-## 🤝 Contributing
+# 🧪 Testing
 
-Contributions, suggestions and bug reports are welcome.
+Discord Utils includes automated tests to help ensure reliability as the project grows.
 
-If you have an idea for a new utility or improvement, feel free to open an issue or submit a pull request.
-
----
-
-## 📄 Licence
-
-Released under the **MIT License**.
+Future releases will continue expanding test coverage alongside new utilities.
 
 ---
 
-## 🌸 About The Server Boutique
+# 🤝 Contributing
 
-The Server Boutique creates custom Discord bots, server design, community automation and reusable developer tools.
+Contributions are welcome.
 
-If this project helps you, consider supporting future development by visiting our Ko-fi page.
+Whether you've found a bug, have an idea for a new utility or would like to improve the documentation, we'd love to hear from you.
 
-☕ https://ko-fi.com/theserverboutique
+Please read the **CONTRIBUTING.md** guide before opening a pull request.
+
+---
+
+# 📄 License
+
+This project is released under the **MIT License**.
+
+See **LICENSE** for full details.
+
+---
+
+# 🌸 About The Server Boutique
+
+Discord Utils is developed by **The Server Boutique**, a boutique Discord development studio specialising in:
+
+- 🤖 Custom Discord bot development
+- 🏡 Discord server design
+- ⚙️ Community automation
+- 📦 Open-source developer tools
+- 📚 Documentation and resources
+
+If Discord Utils has helped you, consider supporting future development or exploring our services.
+
+### ☕
+
+**Ko-fi**
+
+https://ko-fi.com/theserverboutique
+
+---
+
+<div align="center">
+
+### 🌸 Built with care by The Server Boutique
+
+Beautiful communities • Thoughtful systems • Reusable code
+
+</div>
